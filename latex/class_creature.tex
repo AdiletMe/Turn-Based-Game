@@ -1,0 +1,86 @@
+\hypertarget{class_creature}{}\doxysection{Creature Class Reference}
+\label{class_creature}\index{Creature@{Creature}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_creature_ae8b4ffd77717c76aa08b9c715d2aab27}\label{class_creature_ae8b4ffd77717c76aa08b9c715d2aab27}} 
+auto {\bfseries get\+EXP} () -\/$>$ const int
+\item 
+\mbox{\Hypertarget{class_creature_a131995c3f4321b36e856d7ace19805a4}\label{class_creature_a131995c3f4321b36e856d7ace19805a4}} 
+auto {\bfseries get\+Name} () -\/$>$ const std\+::string
+\item 
+\mbox{\Hypertarget{class_creature_a15d374d51d0dd93e46183f9ae9df6e67}\label{class_creature_a15d374d51d0dd93e46183f9ae9df6e67}} 
+auto {\bfseries damage\+Type} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_creature}{Creature}} $>$ creature) -\/$>$ const int
+\item 
+\mbox{\Hypertarget{class_creature_af225c0a340cee6e8db3bbd65f00aab38}\label{class_creature_af225c0a340cee6e8db3bbd65f00aab38}} 
+auto {\bfseries Generic\+Attack} () -\/$>$ const int
+\item 
+\mbox{\Hypertarget{class_creature_a65448ec3e15578a3a72b3e776ff9c90f}\label{class_creature_a65448ec3e15578a3a72b3e776ff9c90f}} 
+auto {\bfseries Take\+Damage} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_creature}{Creature}} $>$ creature) -\/$>$ void
+\item 
+\mbox{\Hypertarget{class_creature_abe0bf6b32b94ca1ad48654896998e2d9}\label{class_creature_abe0bf6b32b94ca1ad48654896998e2d9}} 
+auto {\bfseries Take\+Damage} (int) -\/$>$ const void
+\item 
+\mbox{\Hypertarget{class_creature_acfef4522ca16f70bae28d7de429d826d}\label{class_creature_acfef4522ca16f70bae28d7de429d826d}} 
+auto {\bfseries Is\+Dead} () -\/$>$ const bool
+\item 
+\mbox{\Hypertarget{class_creature_a2da9cb7419dbc9f9085b082f0328b032}\label{class_creature_a2da9cb7419dbc9f9085b082f0328b032}} 
+auto {\bfseries Add\+Experience} (int xp) -\/$>$ const void
+\item 
+\mbox{\Hypertarget{class_creature_a3973f8e4414dce50ac8b28fad42f63d0}\label{class_creature_a3973f8e4414dce50ac8b28fad42f63d0}} 
+auto {\bfseries show\+\_\+\+HUD} () -\/$>$ void
+\item 
+\mbox{\Hypertarget{class_creature_aab30d666debeed3df58a9dbaf84a2284}\label{class_creature_aab30d666debeed3df58a9dbaf84a2284}} 
+auto {\bfseries Player\+Action} () -\/$>$ const int
+\item 
+\mbox{\Hypertarget{class_creature_a90924adb513fa877d4bd6a501b556a9f}\label{class_creature_a90924adb513fa877d4bd6a501b556a9f}} 
+auto {\bfseries Enemy\+Action} () -\/$>$ const int
+\item 
+\mbox{\Hypertarget{class_creature_adb1fac0882732fd0643b28b810cc74bf}\label{class_creature_adb1fac0882732fd0643b28b810cc74bf}} 
+auto {\bfseries Evolve\+Creature} () -\/$>$ const void
+\item 
+\mbox{\Hypertarget{class_creature_ab0c5d5affd1b24d315cf3980364fac0b}\label{class_creature_ab0c5d5affd1b24d315cf3980364fac0b}} 
+auto {\bfseries Enemy\+Evolution} () -\/$>$ const void
+\item 
+\mbox{\Hypertarget{class_creature_a48309cf704e5f77afe0cae9587ae8880}\label{class_creature_a48309cf704e5f77afe0cae9587ae8880}} 
+virtual int {\bfseries special\+\_\+\+Power} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_creature_ac7b716f6199a883d0ee32152a00ed72a}\label{class_creature_ac7b716f6199a883d0ee32152a00ed72a}} 
+elemental\+Type {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_creature_a797ef5131d47594c0e34920b00421a04}\label{class_creature_a797ef5131d47594c0e34920b00421a04}} 
+int {\bfseries HP}
+\item 
+\mbox{\Hypertarget{class_creature_a91888457719f5ce1d023018901f01f1f}\label{class_creature_a91888457719f5ce1d023018901f01f1f}} 
+int {\bfseries Strength}
+\item 
+\mbox{\Hypertarget{class_creature_acfa9717f0da1c44e697ffb4fa237a64d}\label{class_creature_acfa9717f0da1c44e697ffb4fa237a64d}} 
+int {\bfseries Dexterity}
+\item 
+\mbox{\Hypertarget{class_creature_a415485e861408753645728be1dd4dad7}\label{class_creature_a415485e861408753645728be1dd4dad7}} 
+int {\bfseries EXP}
+\item 
+\mbox{\Hypertarget{class_creature_ab213a18d660683c9f91e16bf32e2e928}\label{class_creature_ab213a18d660683c9f91e16bf32e2e928}} 
+std\+::string {\bfseries name}
+\item 
+\mbox{\Hypertarget{class_creature_add6f2b3967a287b54d360cc357d0adf5}\label{class_creature_add6f2b3967a287b54d360cc357d0adf5}} 
+std\+::string {\bfseries special\+\_\+power}
+\item 
+\mbox{\Hypertarget{class_creature_a3c000525fe7d6abbec66ce7379257634}\label{class_creature_a3c000525fe7d6abbec66ce7379257634}} 
+int {\bfseries level} = 0
+\item 
+\mbox{\Hypertarget{class_creature_ae9530c8f474e9869a46df13a0dce9e52}\label{class_creature_ae9530c8f474e9869a46df13a0dce9e52}} 
+int {\bfseries EXPcapacity} = 0
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Creature.\+hpp\item 
+Creature.\+cpp\end{DoxyCompactItemize}
